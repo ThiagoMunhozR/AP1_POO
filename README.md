@@ -22,6 +22,14 @@ Funcionalidades:
 * Cálculo do ITBI: Determina o maior valor entre o valor da transação e o valor venal do imóvel e calcula o valor do ITBI com base nesse valor e na porcentagem do imposto.
 * Exibição de Resultados: Apresenta o valor final do ITBI.
 
+### 3. Sistema de Avaliação / SistemaAvaliacao.java
+O Sistema de Avaliação é uma aplicação em Java desenvolvida para calcular a média de notas de duas provas e um trabalho, utilizando a classe JOptionPane para entrada de dados. Além disso, o programa indica se o aluno está aprovado ou reprovado com base na média calculada.
+
+Funcionalidades:
+* Entrada de Dados: Utiliza a classe JOptionPane para receber as notas da Prova 1, Prova 2 e do Trabalho, garantindo que as notas fornecidas estejam no intervalo de 0 a 10.
+* Cálculo da Média: Calcula a média aritmética das notas das provas e do trabalho.
+* Indicação de Aprovação: Verifica se a média é maior ou igual a 6 e exibe uma mensagem indicando se o aluno foi aprovado ou reprovado.
+
 ## Instruções de Execução
 
 Para compilar e executar qualquer um dos programas listados acima, siga as etapas abaixo:
