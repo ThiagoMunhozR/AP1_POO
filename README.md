@@ -57,6 +57,15 @@ Funcionalidades:
 * Se a pessoa atender a qualquer uma das condições acima, o programa informará que ela já pode se aposentar.
 * Caso contrário, o programa informará quantos anos faltam para que a pessoa possa se aposentar.
 
+### 5. Circuito de Resistências / CircuitoResistencias.java
+Este programa em Java permite calcular a resistência equivalente, a maior e a menor resistência de um circuito com quatro resistências ligadas em série.
+
+Funcionalidades:
+* Entrada de Dados: O programa solicita que o usuário insira os valores das quatro resistências ligadas em série.
+* Cálculo da Resistência Equivalente: Calcula a resistência equivalente do circuito somando os valores das quatro resistências.
+* Identificação da Maior e Menor Resistência: Determina a maior e a menor resistência entre os valores fornecidos.
+* Exibição de Resultados: Apresenta a resistência equivalente, a maior e a menor resistência do circuito.
+
 ## Instruções de Execução
 
 Para compilar e executar qualquer um dos programas listados acima, siga as etapas abaixo:
