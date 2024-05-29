@@ -78,6 +78,14 @@ Funcionalidades
 * Login ou Senha Incorretos: Exibe uma mensagem de erro e informa o número de tentativas restantes.
 * Número Máximo de Tentativas: Após três tentativas falhas, exibe uma mensagem e encerra o programa.
 
+### 7. Gerador de Tabuada / GeradorDeTabuada.java
+Este programa solicita ao usuário um número e gera a tabuada desse número de 1 a 10, utilizando Scanner para a entrada de dados e System.out para a exibição dos resultados.
+
+Funcionalidades
+* Entrada de Dados: Recebe um número inteiro do usuário.
+* Geração da Tabuada: Calcula a tabuada do número fornecido de 1 a 10.
+* Exibição de Resultados: Apresenta a tabuada no console.
+
 ## Instruções de Execução
 
 Para compilar e executar qualquer um dos programas listados acima, siga as etapas abaixo:
