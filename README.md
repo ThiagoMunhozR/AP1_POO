@@ -30,6 +30,33 @@ Funcionalidades:
 * Cálculo da Média: Calcula a média aritmética das notas das provas e do trabalho.
 * Indicação de Aprovação: Verifica se a média é maior ou igual a 6 e exibe uma mensagem indicando se o aluno foi aprovado ou reprovado.
 
+### 4. Calculadora de Aposentadoria / CalculadoraAposentadoria.java
+Este programa em Java permite determinar se uma pessoa já pode se aposentar ou quantos anos faltam para isso, com base nas regras de aposentadoria por idade ou por tempo de contribuição.
+
+**Regras de Aposentadoria:** Existem duas maneiras pelas quais uma pessoa pode se aposentar:
+
+**Por Idade:** A pessoa pode se aposentar quando atingir uma certa idade mínima, que varia de acordo com o sexo.
++ Homens: A idade mínima para aposentadoria é de 65 anos.
++ Mulheres: A idade mínima para aposentadoria é de 62 anos.
+  
+**Por Tempo de Contribuição:** A pessoa pode se aposentar quando atingir um certo número de anos de contribuição ao sistema de previdência social, que também varia de acordo com o sexo.
++ Homens: O tempo mínimo de contribuição exigido é de 35 anos.
++ Mulheres: O tempo mínimo de contribuição exigido é de 30 anos.
+
+Funcionalidades:
+* Entrada de Dados: O programa solicita que o usuário insira a idade, o sexo (M para masculino, F para feminino) e o número de anos de contribuição para o sistema de previdência social.
+* Verificação da Aposentadoria: Determina se a pessoa já pode se aposentar com base em duas condições:
+
+  ``
+  1 - Se o usuário atingiu a idade mínima para aposentadoria de acordo com o sexo.
+  ``
+
+  ``
+  2 - Se o usuário atingiu o tempo mínimo de contribuição exigido para a aposentadoria de acordo com o sexo.
+  ``
+* Se a pessoa atender a qualquer uma das condições acima, o programa informará que ela já pode se aposentar.
+* Caso contrário, o programa informará quantos anos faltam para que a pessoa possa se aposentar.
+
 ## Instruções de Execução
 
 Para compilar e executar qualquer um dos programas listados acima, siga as etapas abaixo:
@@ -37,10 +64,16 @@ Para compilar e executar qualquer um dos programas listados acima, siga as etapa
 1 -  **Abra o terminal ou prompt de comando.**
 
 2 -  **Navegue até o diretório onde o arquivo Java está localizado.**
-  * cd caminho/para/seu/diretorio
+  ````
+   cd caminho/para/seu/diretorio
+  ````
 
 3 - **Compile o arquivo Java usando o comando javac.**
-  * javac NomeDoArquivo.java
-
+````
+ javac NomeDoArquivo.java
+````
+    
 4 - **Execute o programa compilado usando o comando java.**
-  * java NomeDoArquivo
+````
+ java NomeDoArquivo
+````
