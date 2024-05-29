@@ -66,6 +66,18 @@ Funcionalidades:
 * Identificação da Maior e Menor Resistência: Determina a maior e a menor resistência entre os valores fornecidos.
 * Exibição de Resultados: Apresenta a resistência equivalente, a maior e a menor resistência do circuito.
 
+### 6. Sistema de login / SistemaLogin.java
+Este programa simula um sistema de login simples utilizando a classe JOptionPane para interações com o usuário. O sistema permite três tentativas de login, após as quais o acesso é negado.
+
+Funcionalidades
+* Entrada de Dados: Solicita o nome de usuário e senha do usuário.
+* Validação de Login: Compara os dados inseridos com os valores "java8".
+* Tentativas de Login: Permite até três tentativas de login com mensagens de erro informativas a cada falha.
+* Encerramento: Se o usuário clicar em "Cancelar" durante a solicitação de login ou senha, o programa é encerrado imediatamente com uma mensagem de cancelamento.
+* Login Bem-Sucedido: Exibe uma mensagem e encerra o programa.
+* Login ou Senha Incorretos: Exibe uma mensagem de erro e informa o número de tentativas restantes.
+* Número Máximo de Tentativas: Após três tentativas falhas, exibe uma mensagem e encerra o programa.
+
 ## Instruções de Execução
 
 Para compilar e executar qualquer um dos programas listados acima, siga as etapas abaixo:
